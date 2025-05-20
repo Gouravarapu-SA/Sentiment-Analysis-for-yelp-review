@@ -1,42 +1,46 @@
-# Machine Learning Project: Yelp Review Classification
+# 📝 Yelp Review Sentiment Analyzer
 
-This Jupyter notebook contains code for a machine learning project using the Yelp review dataset.
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![NLP](https://img.shields.io/badge/NLP-NLTK-blueviolet.svg)
+![ML](https://img.shields.io/badge/MachineLearning-ScikitLearn-orange.svg)
 
-## Overview
+> **An interactive and data-rich NLP project that uses machine learning to analyze and classify Yelp reviews based on sentiment.**
 
-The notebook performs the following steps:
+---
 
-1. Imports necessary packages for data manipulation, machine learning, visualization, etc.
-2. Loads the Yelp review dataset from a CSV file into a Pandas DataFrame.
-3. Performs some initial data cleaning and feature engineering.
-4. Explores the dataset and does some basic analysis and visualizations.
-5. Splits the data into train and test sets for model training and evaluation.
-6. Implements text preprocessing and vectorization techniques on the review text data.
-7. Trains and evaluates various machine learning classification models like Naive Bayes, Random Forest, etc., on the vectorized text features.
-8. Analyzes the performance of different models using various metrics like accuracy, confusion matrix, etc.
+## 📸 Preview
 
-## Requirements
+<table>
+  <tr>
+    <td><img src="https://github.com/yourusername/yelp-review-analyzer/blob/main/assets/wordcloud.png" alt="Wordcloud" width="400"/></td>
+    <td><img src="https://github.com/yourusername/yelp-review-analyzer/blob/main/assets/confusion_matrix.png" alt="Confusion Matrix" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center">WordCloud of Frequent Words</td>
+    <td align="center">Model Confusion Matrix</td>
+  </tr>
+</table>
 
-The code is written in Python and requires the following packages:
+---
 
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- NLTK
-- WordCloud
+## 🚀 Key Features
 
-## Usage
+✨ **Data Cleaning & Preprocessing**  
+🔍 **NLP using NLTK**  
+📊 **Visual Exploratory Analysis**  
+🧠 **Model Training (Naive Bayes, Random Forest)**  
+✅ **Evaluation Metrics (Accuracy, Confusion Matrix)**  
+☁️ **WordCloud Generation**
 
-I. Install the requirements listed above.
+---
 
-II. Download the Yelp review dataset CSV file.
+## 📁 Project Structure
 
-III. Update the file path in cell 3 to point to the CSV file.
-
-IV. Run all cells sequentially to reproduce the analysis.
-
-V. Tweak parameters and models as desired.
-
-VI. Additional comments are provided within the notebook.
+```bash
+yelp-review-analyzer/
+├── yelp_rating.csv              # Dataset
+├── review_analysis.ipynb        # Main Jupyter Notebook
+├── assets/                      # Images (WordClouds, Graphs, etc.)
+├── requirements.txt             # Required packages
+└── README.md                    # Project README

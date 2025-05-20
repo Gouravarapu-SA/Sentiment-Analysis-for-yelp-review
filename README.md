@@ -5,7 +5,7 @@
 ![NLP](https://img.shields.io/badge/NLP-NLTK-blueviolet.svg)
 ![ML](https://img.shields.io/badge/MachineLearning-ScikitLearn-orange.svg)
 
-> **An interactive and data-rich NLP project that uses machine learning to analyze and classify Yelp reviews based on sentiment.**
+> An interactive and data-rich NLP project that uses machine learning to analyze and classify Yelp reviews based on sentiment.
 
 ---
 
@@ -13,8 +13,8 @@
 
 <table>
   <tr>
-    <td><img src="https://github.com/yourusername/yelp-review-analyzer/blob/main/assets/wordcloud.png" alt="Wordcloud" width="400"/></td>
-    <td><img src="https://github.com/yourusername/yelp-review-analyzer/blob/main/assets/confusion_matrix.png" alt="Confusion Matrix" width="400"/></td>
+    <td><img src="wordcloud.png" alt="WordCloud" width="400"/></td>
+    <td><img src="confusion_matrix.png" alt="Confusion Matrix" width="400"/></td>
   </tr>
   <tr>
     <td align="center">WordCloud of Frequent Words</td>
@@ -27,11 +27,11 @@
 ## 🚀 Key Features
 
 ✨ **Data Cleaning & Preprocessing**  
-🔍 **NLP using NLTK**  
-📊 **Visual Exploratory Analysis**  
-🧠 **Model Training (Naive Bayes, Random Forest)**  
-✅ **Evaluation Metrics (Accuracy, Confusion Matrix)**  
-☁️ **WordCloud Generation**
+🔍 **NLP with NLTK**  
+📊 **Text & Star Rating Visual Analysis**  
+☁️ **WordCloud Generation**  
+🧠 **Classification with Naive Bayes & Random Forest**  
+📈 **Model Evaluation with Accuracy & Confusion Matrix**
 
 ---
 
@@ -40,7 +40,8 @@
 ```bash
 yelp-review-analyzer/
 ├── yelp_rating.csv              # Dataset
-├── review_analysis.ipynb        # Main Jupyter Notebook
-├── assets/                      # Images (WordClouds, Graphs, etc.)
-├── requirements.txt             # Required packages
-└── README.md                    # Project README
+├── review_analysis.ipynb        # Jupyter Notebook
+├── wordcloud.png                # WordCloud output
+├── confusion_matrix.png         # Confusion matrix output
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
